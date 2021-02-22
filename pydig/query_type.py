@@ -26,7 +26,11 @@ class QueryType(Enum):
     TXT = 16
     AAAA = 28
     DS = 43
+    RRSIG = 46
+    NSEC = 47
     DNSKEY = 48
+    NSEC3 = 50
+    NSEC3PARAM = 51
     CDS = 59
     CDNSKEY = 60
 
